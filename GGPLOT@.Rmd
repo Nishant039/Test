@@ -23,7 +23,7 @@ output:
 ```{r load-packages, message = FALSE}
 library(ggplot2)
 library(dplyr)
-library(statsr)
+library(data.table)
 ```
 
 ### Load data
@@ -135,10 +135,7 @@ pl6 + theme_economist_white()
 ```
 
 
-```{r}
-str(df2)
 
-```
 
 
 
